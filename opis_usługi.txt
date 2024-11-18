@@ -1,0 +1,3 @@
+Nazwa usługi: e-doctor
+Opis: Wizyta online to nowoczesna forma konsultacji medycznej, umożliwiająca pacjentowi kontakt z lekarzem lub specjalistą za pośrednictwem internetu, bez konieczności fizycznego odwiedzania placówki medycznej. Jest to wygodne rozwiązanie, które oszczędza czas i pozwala na szybki dostęp do opieki medycznej z dowolnego miejsca.
+Cele: Poprawa dostępności usług zdrowotnych i minimalizacja zarażeń w sezonie chorobowym.
