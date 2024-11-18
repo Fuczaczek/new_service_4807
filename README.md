@@ -15,9 +15,7 @@ Proponowaną usługą medyczną w e-doctor są teleporady medyczne realizowane w
 
 **git commit -a - m "komentarz opisujacy wprowadzone zmiany"** - przesłanie plików do repozytorium z komentarzem
 
-**git touch  nazwa_pliku.txt** - stworzenie nowego pliku txt
-
-**git add nazwa_pliku.txt** - dodanie pliku do śledzenia
+**git add nazwa_pliku.txt** - stworzenie nowego pliku txt i dodanie pliku do śledzenia
 
 **git diff** - polecenie, które porównuje różne wersje pliku i znajduje różnice
 
@@ -43,20 +41,23 @@ użycie **git checkout nazwa_gałęzi** powoduje przełączenie się do gałezi,
 
 W projekcie wykorzystano: 
 
-git checkout new_service
+git checkout new_service - przełączanie na daną gałąź
 
-git -h
+git -h - pomoc
 
 git init new_service - zainicjowanie nowego repozytorium
 
 cd new_service - zmiana katalogu
 
-git commit -a -m "komentarz" -  przesłanie plików do repozytorium z komentarzem
+git branch new_branch - stworzenie nowej gałęzi
+
+git commit -a -m "komentarz" -  przesłanie plików do repozytorium z komentarzami wymaganymi w opisie projektu
 
 git add * - dodawanie plików nieskomittowanych wcześniej
 
 git push origin tag - dodanie tagu
 
+git merge - scalenie gałęzi
 
 
 ## Opis napotkanych problemów (jeśli wystąpiły) oraz sposobów, w jaki je rozwiązałeś, np. problemy z konfliktami podczas scalania.
@@ -87,7 +88,7 @@ $ git push tag v1.0
 error: src refspec v1.0 does not match any
 error: failed to push some refs to 'tag'
 
-Problemy rozwiązywałam przeglądając możliwe rozwiązania na stackoverflow.com oraz metodami prób i błędów. Czasem źle wpisałam nazwę, czasem polecenie - więc próbowałam aż do skutku.
+Problemy rozwiązywałam przeglądając możliwe rozwiązania na stackoverflow.com oraz metodami prób i błędów (niektóre polecenia takie jak git touch u mnie nie działąły). Czasem źle wpisałam nazwę, czasem polecenie nie wywoływało konkretnego działania - więc próbowałam aż do skutku, np. innymi komendami.
 
 
 
