@@ -1,0 +1,4 @@
+Ankieta dla pacjentów:
+1. Czy kiedykolwiek korzystałeś z usług teleporad medycznych? TAK/NIE
+2. Czy preferujesz e-konsultacje zamiast tradycyjnej wizyty u lekarza? TAK/NIE
+3. Czy w razie potrzeby, e-konsultacja będzie Twoim pierwszym wyborem zamiast tradycyjnej wizyty? TAK/NIE
